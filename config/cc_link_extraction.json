@@ -1,0 +1,32 @@
+{
+  "db_properties": {
+    "database": "cc_raw_links_db",
+    "user": "cc_link_extractor",
+    "password": "cc_20250302"
+    },
+  "extract": {
+    "num_segments": 3,
+    "table_name": "external_links"
+  },
+  "analyze": {
+    "table_name": "external_links",
+    "steps": {
+      "country": {
+        "type": "str",
+        "method": "rdap"
+      },
+      "category": {
+        "type": "str",
+        "service": "whoisxmlapi",
+        "api_key": "at_AoSs4Ml3SgrHMlnaghxdNwFVj1NR3"
+      },
+      "age": {
+        "type": "int"
+      }
+    },
+    "output": {
+      "format": "parquet",
+      "out_path": "out/sample"
+    }
+  }
+}
