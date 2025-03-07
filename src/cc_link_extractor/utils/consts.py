@@ -1,3 +1,6 @@
+PACKAGE_NAME_APP = "CommonCrawlLinkExtractor"
+PACKAGE_NAME = "cc_link_extractor"
+
 # Step names
 EXTRACT = "extract"
 ANALYZE = "analyze"

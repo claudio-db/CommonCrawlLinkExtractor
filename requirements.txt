@@ -1,0 +1,8 @@
+requests~=2.32.3
+warcio~=1.7.5
+pyspark~=3.5.5
+ipwhois~=1.3.0
+psycopg2-binary~=2.9.10
+pydantic~=2.10.6
+python-whois~=0.9.5
+setuptools==75.8.2
