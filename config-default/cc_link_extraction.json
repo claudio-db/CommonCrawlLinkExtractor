@@ -26,7 +26,7 @@
     },
     "output": {
       "format": "parquet",
-      "out_path": "out/sample"
+      "out_path": "/app/output"
     }
   }
 }
